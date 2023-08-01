@@ -16,6 +16,8 @@ import SettingTable from '../../components/Setting';
 
 ## Proposed to replace the above table
 
+The `<br />` is being rendered as a string instead of a line break, same with backticks.
+
   - From v2.5.5 onwards, StarRocks can periodically refresh the cached metadata of the frequently accessed Hive catalogs to perceive data changes. You can configure the Hive metadata cache refresh through the following FE dynamic parameters:
 
     - <SettingTable settingName="enable_background_refresh_connector_metadata" settingDefault="true in v3.0 <br /> false in v2.5" settingDescription="Whether to enable the periodic Hive metadata cache refresh. After it is enabled, StarRocks polls the metastore (Hive Metastore or AWS Glue) of your Hive cluster, and refreshes the cached metadata of the frequently accessed Hive catalogs to perceive data changes. `true` indicates to enable the Hive metadata cache refresh, and `false` indicates to disable it." />
