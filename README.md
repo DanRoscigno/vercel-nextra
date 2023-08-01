@@ -1,3 +1,7 @@
+# Notes on using MDX and next.js components
+
+This content is rendered in Vercel at https://vercel-nextra-i1yhjy7cj-danroscigno.vercel.app/
+
 # Nextra Docs Template 
 
 This is a template for creating documentation with [Nextra](https://nextra.site).
